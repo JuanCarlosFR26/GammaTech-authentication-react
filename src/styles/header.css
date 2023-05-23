@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 448px;
+    height: 192px;
+    position: relative;
+    top: -60px;
+}
+
+.header .logo {
+    border: 4px solid #34AAFF;
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.header h2 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+}
+
+.headerUsers {
+    width: 100vw;
+    height: 99px;
+    background: #34AAFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerUsers img {
+    width: 181px;
+    height: 46px;
+    padding-left: 27px;
+}
+
+.headerUsers button {
+    width: 140px;
+    padding: 12px;
+    margin-right: 35px;
+    border: none;
+    border-radius: 18px;
+    background-color: #002a48;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.headerUsers button:hover {
+    background-color: #27577a;
+    color: #000;
+}
